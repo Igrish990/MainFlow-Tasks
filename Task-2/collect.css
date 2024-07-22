@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  text-align: center;
+  justify-content: space-between;
+  display: flex;
+  position: static;
+  font-family: "Montserrat", "HelveticaNeue", "Helvetica Neue", sans-serif;
+}
+.logo {
+  position: relative;
+  text-align: center;
+  left: 10%;
+}
+.home {
+  display: inline-flex;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+ul li {
+  display: inline;
+  font-size: 20px;
+  padding: 12px 12px;
+  position: relative;
+  justify-content: space-between;
+}
+.icon {
+  position: relative;
+  right: 10%;
+  font-size: 20px;
+  padding: 0px 12px;
+  margin: 75px 0 0;
+  text-align: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.back {
+  display: flex;
+}
+.product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 3%;
+}
+.product img {
+  width: 70%;
+  height: 50%;
+  padding: 3%;
+}
+#big {
+  height: 40%;
+  width: 49%;
+}
+.product p {
+  font-family: "Montserrat", "HelveticaNeue", "Helvetica Neue", sans-serif;
+}
+.overlay {
+  position: absolute;
+  top: 60%;
+  left: 17%;
+  z-index: 1;
+  color: rgb(101, 227, 101);
+  font-size: 60px;
+  font-weight: 800;
+  font-family: "Lato", "HelveticaNeue", "Helvetica Neue", sans-serif;
+}
+.background-media-text__inner {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+}
+.greens {
+  margin: 40px 60px 20px;
+  padding: 10px 20px;
+}
+.greens p {
+  font-family: "Montserrat", "HelveticaNeue", "Helvetica Neue", sans-serif;
+  padding-left: 10%;
+  padding-bottom: 20px;
+  width: 80%;
+  font-size: 14px;
+  line-height: 1.6;
+  letter-spacing: 0.06rem;
+}
+.container {
+  max-height: 100vh;
+  background-color: black;
+  color: white;
+  display: block;
+  margin: 0px 0px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+.container img {
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+  aspect-ratio: 4;
+  position: relative;
+  box-sizing: border-box;
+  z-index: 0;
+}
+ul li ul.dropdown li {
+  display: block;
+}
+ul li ul.dropdown {
+  display: none;
+  width: 100%;
+  background: white;
+  position: absolute;
+  z-index: 999;
+}
+ul li a:hover {
+  background: none;
+}
+ul li:hover ul.dropdown {
+  display: grid !important;
+}

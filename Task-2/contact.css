@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+/* .contact {
+  background-image: url(/37864.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+} */
+.container1 {
+  max-height: 100vh;
+
+  display: block;
+  margin: 0px 0px;
+  width: 100%;
+  text-align: left;
+  position: absolute;
+}
+.container1 img {
+  filter: blur(3px) !important;
+  width: 100%;
+  aspect-ratio: 2;
+  object-fit: cover;
+  position: relative;
+  box-sizing: border-box;
+  z-index: 0;
+}
+.overlay {
+  filter: brightness(75px);
+  background-color: aquamarine;
+  position: absolute;
+  border: 2px solid rgb(232, 180, 180) !important;
+  padding: 24px !important;
+  margin: 12px;
+  top: 20%;
+  left: 38%;
+  z-index: 1;
+  color: rgb(255, 0, 0) !important;
+  font-size: 20px;
+  font-family: "Lato", "HelveticaNeue", "Helvetica Neue", sans-serif;
+}
+input {
+  width: 100% !important;
+  aspect-ratio: 10;
+}
+textarea {
+  width: 100% !important;
+  aspect-ratio: 4;
+}
+button {
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}

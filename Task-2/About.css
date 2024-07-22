@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  color: black;
+}
+.navbar {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  text-align: center;
+  justify-content: space-between;
+  display: flex;
+  position: static;
+  font-family: "Montserrat", "HelveticaNeue", "Helvetica Neue", sans-serif;
+}
+.logo {
+  position: relative;
+  text-align: center;
+  left: 10%;
+}
+.home {
+  display: inline-flex;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+ul li {
+  display: inline;
+  font-size: 20px;
+  padding: 12px 12px;
+  position: relative;
+  justify-content: space-between;
+}
+.icon {
+  position: relative;
+  right: 10%;
+  font-size: 20px;
+  padding: 0px 12px;
+  margin: 75px 0 0;
+  text-align: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.detail {
+  margin: 100px 0;
+  margin-bottom: 100px;
+}
+.detail p {
+  display: flex;
+  float: left;
+  padding-left: 10%;
+  width: 80%;
+  min-height: 1px;
+  font-size: 14px;
+  margin: 10px 0;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f8f8;
+  font-family: "Montserrat", "HelveticaNeue", "Helvetica Neue", sans-serif;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+}
+.container img {
+  background-position: top left;
+  width: 100%;
+  height: 30em;
+  object-fit: cover;
+  position: relative;
+  box-sizing: border-box;
+  z-index: 0;
+}
+.container .text {
+  position: absolute;
+  z-index: 1;
+  max-width: 100%;
+  top: 112%;
+  left: 60%;
+  width: 18%;
+  height: 30%;
+  background: white;
+  color: black;
+  padding: 33px;
+  font-size: 20px;
+}
+.h2 {
+  font-family: "Montserrat", "HelveticaNeue", "Helvetica Neue", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+.text p {
+  font-family: "Montserrat", "HelveticaNeue", "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.blank {
+  width: 100%;
+  height: 50vh;
+  background-color: black;
+  aspect-ratio: 4;
+}
+
+.grid {
+  display: grid;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.history ul li {
+  display: flex !important;
+  font-size: 14px !important;
+  align-items: center;
+  text-align: center;
+  justify-content: left;
+  letter-spacing: 0.05em;
+  line-height: 1.6;
+
+  font-family: "Montserrat", "HelveticaNeue", "Helvetica Neue", sans-serif;
+}
+strong {
+  font-size: 20px !important;
+  text-align: center;
+  padding: 5px !important;
+  font-weight: 700;
+}
+ul li ul.dropdown li {
+  display: block;
+}
+ul li ul.dropdown {
+  display: none;
+  width: 100%;
+  background: white;
+  position: absolute;
+  z-index: 999;
+}
+ul li a:hover {
+  background: none;
+}
+ul li:hover ul.dropdown {
+  display: grid !important;
+}
