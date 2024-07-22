@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+.navbar {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  text-align: center;
+  justify-content: space-between;
+  display: flex;
+  position: static;
+  font-family: "Montserrat", "HelveticaNeue", "Helvetica Neue", sans-serif;
+}
+.logo {
+  position: relative;
+  text-align: center;
+  left: 10%;
+}
+.home {
+  display: inline-flex;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+ul li {
+  display: inline;
+  font-size: 20px;
+  padding: 12px 12px;
+
+  justify-content: space-between;
+}
+.icon {
+  position: relative;
+  right: 10%;
+  font-size: 20px;
+  padding: 0px 12px;
+  margin: 75px 0 0;
+  text-align: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.container {
+  max-height: 100vh;
+  background-color: black;
+  color: white;
+  display: block;
+  margin: 0px auto;
+  width: 94%;
+  border-radius: 34px;
+  text-align: center;
+  position: relative;
+}
+.container video {
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+  border-radius: 24px;
+  box-sizing: border-box;
+  z-index: 0;
+}
+.overlay {
+  position: absolute;
+  top: 35%;
+  left: 18%;
+  z-index: 1;
+  color: rgb(103, 235, 91);
+  font-family: "Lato", "HelveticaNeue", "Helvetica Neue", sans-serif;
+  font-weight: 900;
+  /* text-align: center; */
+}
+label.Heading {
+  font-size: 57px;
+}
+label.subHeading {
+  font-size: 30px;
+}
+.button {
+  font-family: "Lato", "HelveticaNeue", "Helvetica Neue", sans-serif;
+  color: white;
+  border: solid 3px #ffffff;
+  font-size: 24px;
+  padding: 12px 24px;
+  background: none;
+  margin: 15px;
+  cursor: pointer;
+}
